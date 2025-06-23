@@ -1,5 +1,12 @@
-### `get-network-info.ps1`
+# PowerShell Scripts
+
+These are reusable scripts for diagnosing and resolving common support issues.  
+Built for real-world use in IT Support and remote troubleshooting.
+
+## `get-network-info.ps1`
+
 Collects key network configuration details:
+
 - IP configuration
 - Active network adapters
 - Routing table
