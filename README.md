@@ -11,13 +11,6 @@ Includes PowerShell scripts for diagnostics and cleanup, plus step-by-step guide
 
 More scripts coming soon (flush DNS, clear temp, collect logs).
 
-### Troubleshooting Guides (`/troubleshooting-guides`)
-Work-in-progress guides for common support issues:
-- VPN not connecting
-- Printer offline
-- Outlook not syncing
-- WiFi connection drops
-
 ## Who is this for?
 
 - L1–L2 Support Engineers
