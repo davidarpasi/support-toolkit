@@ -18,9 +18,6 @@ Work-in-progress guides for common support issues:
 - Outlook not syncing
 - WiFi connection drops
 
-### Screenshots (`/screenshots`)
-Visuals (where applicable) — sensitive info omitted by design for security best practices.
-
 ## Who is this for?
 
 - L1–L2 Support Engineers
