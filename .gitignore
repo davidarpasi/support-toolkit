@@ -1,0 +1,29 @@
+# PowerShell-related ignores
+*.ps1~
+*.psm1~
+*.psd1~
+*.ps1xml~
+*.xaml.cs
+*.cache
+*.bak
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+*.lnk
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
