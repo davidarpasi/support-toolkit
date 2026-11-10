@@ -18,8 +18,8 @@ try {
         $index++
         [pscustomobject]@{
             Name = if ($IncludeAddresses) { $_.InterfaceAlias } else { "adapter-$index" }
-            IPv4 = if ($IncludeAddresses) { @($_.IPv4Address.IPAddress) } else { @('[redacted]') }
-            Gateway = if ($IncludeAddresses) { @($_.IPv4DefaultGateway.NextHop) } else { @('[redacted]') }
+            IPv4 = @(if ($IncludeAddresses) { $_.IPv4Address.IPAddress } else { '[redacted]' })
+            Gateway = @(if ($IncludeAddresses) { $_.IPv4DefaultGateway.NextHop } else { '[redacted]' })
         }
     })
     if ($adapters.Count -eq 0) { $failures.Add('No network configuration found.') }
